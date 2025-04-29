@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Glegoo:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Malayalam:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anek+Kannada:wght@400;500;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --font-malayalam: "Anek Malayalam", "sans-serif";
+  --font-bangla: "Anek Bangla", "sans-serif";
+  --font-glegoo: "Glegoo", "sans-serif";
+  --font-kannada: "Anek Kannada", "sans-serif";
+}
+@layer utilities {
+  .perspective {
+    perspective: 1000px;
+  }
+  .rotate-x-6 {
+    transform: rotateX(6deg);
+  }
+  .-rotate-y-6 {
+    transform: rotateY(-6deg);
+  }
+}
+
+@keyframes rotateClockwise {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.rotate-on-hover:hover {
+  animation: rotateClockwise 10s linear infinite;
+}
+
+@keyframes fadeSlideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.fade-slide-up {
+  animation: fadeSlideUp 0.5s ease-in-out;
+}
