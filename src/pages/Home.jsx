@@ -149,6 +149,7 @@ const Home = () => {
       video="https://orbitpulse365.com/Video/homepagevideo.mp4"
         title="STRENGTHEN YOUR BUSINESS WITH OUR RELIABLE IT SUPPORT!"
         description="Identifying challenges and implementing tailored solutions, every step aligns seamlessly with your business vision."
+        isTypewriter={true}
       />
 
       {/* Header Section */}
