@@ -32,12 +32,16 @@ const Footer = () => {
             <div className="flex flex-wrap mt-6 gap-8">
               {/* Example social icons - replace src with your own images */}
               <a
-                href="https://facebook.com"
+                href="https://www.facebook.com/profile.php?id=61576014021173"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="border border-white px-2 py-1.5 rounded-lg">
-                <img src={facebook} alt="Facebook" className="h-6 sm:h-8 w-6 sm:w-8" />
+                  <img
+                    src={facebook}
+                    alt="Facebook"
+                    className="h-6 sm:h-8 w-6 sm:w-8"
+                  />
                 </div>
               </a>
               <a
@@ -46,25 +50,37 @@ const Footer = () => {
                 rel="noopener noreferrer"
               >
                 <div className="border border-white px-2 py-1.5 rounded-lg">
-                <img src={instagram} alt="Twitter" className="h-6 sm:h-8 w-6 sm:w-8" />
+                  <img
+                    src={instagram}
+                    alt="Twitter"
+                    className="h-6 sm:h-8 w-6 sm:w-8"
+                  />
                 </div>
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://www.linkedin.com/company/orbit-pulse-365/posts/?feedView=all"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="border border-white px-2 py-1.5 rounded-lg">
-                <img src={linkedIn} alt="LinkedIn" className="h-6 sm:h-8 w-6 sm:w-8" />
+                  <img
+                    src={linkedIn}
+                    alt="LinkedIn"
+                    className="h-6 sm:h-8 w-6 sm:w-8"
+                  />
                 </div>
               </a>
               <a
-                href="https://instagram.com"
+                href="https://wa.me/447878776438"
                 target="_blank"
                 rel="noopener noreferrer"
               >
                 <div className="border border-white px-2 py-1.5 rounded-lg">
-                <img src={whatsapp} alt="Instagram" className="h-6 sm:h-8 w-6 sm:w-8" />
+                  <img
+                    src={whatsapp}
+                    alt="WhatsApp"
+                    className="h-6 sm:h-8 w-6 sm:w-8"
+                  />
                 </div>
               </a>
             </div>

@@ -25,13 +25,17 @@ const ServiceBanner = ({ image, video, title, description, isTypewriter }) => {
           <h1 className="text-xl sm:text-[40px] font-semibold mb-3 font-bangla uppercase">
             {isTypewriter ? (
               <Typewriter
-                options={{
-                  strings: [title],
-                  autoStart: true,
-                  loop: true,
-                  delay: 75,
-                }}
-              />
+              onInit={(typewriter) => {
+                typewriter
+                  .typeString(title)
+                  .start();
+              }}
+              options={{
+                autoStart: true,
+                loop: false,
+                delay: 75,
+              }}
+            />
             ) : (
               title
             )}

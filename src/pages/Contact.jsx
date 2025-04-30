@@ -104,22 +104,22 @@ const Contact = () => {
           {/* Left Section */}
           <div className="lg:w-1/2 text-[#5D5A5A] leading-8 sm:leading-10">
             <p>
-              One stop shop for all your IT problems and reliable partner in
-              managing your service requests through 24/7 accessible team and
-              experts.
+            Orbit Pulse is your reliable partner for resolving all IT challenges and efficiently managing service requests. Our expert team is available 24/7 to support you, ensuring seamless and uninterrupted service.
+
             </p>
             <div>
               <h2>Help Desk</h2>
               <p>
-                Name: Operations IP Global
+                Name: Operations Orbit Pulse
                 <h1>Telephone Numbers:</h1>
                 <p>
-                  UK: +44 118-300-2947
+                  UK: +44 7878 776438‬
                   <br />
-                  USA: +1 315-503-6247
+                  USA: +44 7878 776271‬
+
                 </p>
                 <h1>Email Us</h1>
-                <p>info@ipglobal247.com</p>
+                <p>info@orbitpulse365.com </p>
               </p>
             </div>
           </div>
